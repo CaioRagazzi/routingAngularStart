@@ -26,7 +26,8 @@ export class ServersService {
       (s) => {
         return s.id === id;
       }
-    );
+    );  
+    
     return server;
   }
 
